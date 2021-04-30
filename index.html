@@ -1,63 +1,41 @@
 <!DOCTYPE html>
 <html>
-  
+
 <head>
-<title> JavaScript Append </title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>COMMENTS GENERATOR</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
-  
-<body>
-  
-<div class="container">
-  
-<h1 style="text-align : center;">COMMENTS GENERATOR</h1>
-  
-<form>
-  
-<div class="form-group">
-<label for="">Enter Subjects:</label>
-<input id="subjectname" class="form-control" type="text" placeholder="Input Your Name Here">
-  
-  <label for="cars">Choose a car:</label>
-  <select id="cars" name="cars">
-    <option value="volvo">Volvo</option>
-    <option value="saab">Saab</option>
-    <option value="fiat">Fiat</option>
-    <option value="audi">Audi</option>
-  </select>
-  <input type="submit">
-</div>
-  
-<div class="form-group text-center">
-<button id="my_button"class="btn btn-outline-success btn-lg"
-type="button">
-Add Subjects
-</button>
-</div>
-  
-</form>
-  
-  
-<h3>List of Subjects as:</h3>
-<div id="listDemo"></div>
-</div>
-  
-<script>
-function append_to_div(div_name, data){
-document.getElementById(div_name).innerText += data;
-}
-document.getElementById("my_button")
-.addEventListener('click', function() {
-var user_name = document.getElementById("subjectname");
-var value = user_name.value.trim();
-if(!value)
-alert("Please enter subject name!");
-else
-append_to_div("listDemo", value+"\n");
-user_name.value = "";
-});
-</script>
-  
-  
+
+   <body>
+   <form method='POST'>
+
+ <h2>Introduction:</h2>
+ <input type="text" name="0">
+
+ <h2>Behavior in Classroom:</h2>
+ <input type="text" name="1">
+
+ <h2>Behavior outside Classroom:</h2>
+ <input type="text" name="2">
+ 
+ <h2>CLAIRE values:</h2>
+ <input type="text" name="3">
+
+ <h2>Conlusion:</h2>
+ <input type="text" name="4">
+ <input type="submit" value="Submit Name">
+
+ </form>
+ 
+<?php
+$name  = $_POST['0'];
+$name1 = $_POST['1'];
+$name2 = $_POST['2'];
+$name3 = $_POST['3'];
+$name4 = $_POST['4'];
+
+echo "<h3> $name $name1 $name2 $name3 $name4</h3>";
+
+?>
 </body>
 </html>
