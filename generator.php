@@ -11,6 +11,7 @@
 
  <h2>Introduction:</h2>
  <select id="cars" name="0">
+ <option value="">choose</option>
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>
   <option value="fiat">Fiat</option>
@@ -19,6 +20,7 @@
 
  <h2>Behavior in Classroom:</h2>
  <select id="cars" name="1">
+ <option value="">choose</option>
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>
   <option value="fiat">Fiat</option>
@@ -27,6 +29,7 @@
 
  <h2>Behavior outside Classroom:</h2>
  <select id="cars" name="2">
+ <option value="">choose</option>
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>
   <option value="fiat">Fiat</option>
@@ -35,6 +38,7 @@
  
  <h2>CLAIRE values:</h2>
  <select id="cars" name="3">
+  <option value="">choose</option>
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>
   <option value="fiat">Fiat</option>
@@ -44,6 +48,7 @@
 
   <h2>drop down trial:</h2>
   <select id="cars" name="4">
+  <option value="">choose</option>
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>
   <option value="fiat">Fiat</option>
@@ -53,6 +58,7 @@
 
  <h2>Conlusion:</h2>
   <select id="cars" name="5">
+  <option value="">choose</option>
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>
   <option value="fiat">Fiat</option>
